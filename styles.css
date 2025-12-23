@@ -97,7 +97,7 @@ a {
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   font-weight: 600;
   color: var(--brand);
   margin-bottom: 16px;
@@ -143,15 +143,16 @@ a {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 24px;
-  padding: 28px;
+  padding: 32px;
   box-shadow: var(--shadow);
 }
 
 .hero-card-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
+  text-align: center;
 }
 
 .pill {
@@ -168,6 +169,15 @@ a {
   display: grid;
   gap: 12px;
   color: var(--muted);
+  padding-left: 0;
+  list-style: none;
+}
+
+.hero-card li {
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
 }
 
 .hero-card-footer {
@@ -243,6 +253,18 @@ a {
   color: var(--muted);
 }
 
+.card ul {
+  margin-top: 16px;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  padding-left: 18px;
+}
+
+.card li {
+  list-style: disc;
+}
+
 .card-tag {
   display: inline-flex;
   align-items: center;
@@ -296,6 +318,32 @@ a {
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
   display: grid;
   gap: 16px;
+}
+
+.packages {
+  align-items: stretch;
+}
+
+.package-card {
+  position: relative;
+}
+
+.package-card.highlight {
+  border-color: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 18px 40px rgba(37, 99, 235, 0.16);
+}
+
+.package-card.highlight::after {
+  content: "Recomendado";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
 }
 
 .case-metric {
