@@ -97,7 +97,11 @@ a {
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.12em;
+<<<<<<< HEAD
+  font-size: 0.82rem;
+=======
   font-size: 0.75rem;
+>>>>>>> main
   font-weight: 600;
   color: var(--brand);
   margin-bottom: 16px;
@@ -143,15 +147,25 @@ a {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 24px;
+<<<<<<< HEAD
+  padding: 32px;
+=======
   padding: 28px;
+>>>>>>> main
   box-shadow: var(--shadow);
 }
 
 .hero-card-header {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+=======
   justify-content: space-between;
   gap: 16px;
+>>>>>>> main
 }
 
 .pill {
@@ -168,6 +182,18 @@ a {
   display: grid;
   gap: 12px;
   color: var(--muted);
+<<<<<<< HEAD
+  padding-left: 0;
+  list-style: none;
+}
+
+.hero-card li {
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+=======
+>>>>>>> main
 }
 
 .hero-card-footer {
@@ -243,6 +269,21 @@ a {
   color: var(--muted);
 }
 
+<<<<<<< HEAD
+.card ul {
+  margin-top: 16px;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  padding-left: 18px;
+}
+
+.card li {
+  list-style: disc;
+}
+
+=======
+>>>>>>> main
 .card-tag {
   display: inline-flex;
   align-items: center;
@@ -298,6 +339,35 @@ a {
   gap: 16px;
 }
 
+<<<<<<< HEAD
+.packages {
+  align-items: stretch;
+}
+
+.package-card {
+  position: relative;
+}
+
+.package-card.highlight {
+  border-color: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 18px 40px rgba(37, 99, 235, 0.16);
+}
+
+.package-card.highlight::after {
+  content: "Recomendado";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+=======
+>>>>>>> main
 .case-metric {
   font-weight: 600;
   color: var(--brand-dark);
