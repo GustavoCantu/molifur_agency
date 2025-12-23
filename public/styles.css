@@ -97,7 +97,11 @@ a {
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.12em;
+<<<<<<< HEAD
   font-size: 0.82rem;
+=======
+  font-size: 0.75rem;
+>>>>>>> main
   font-weight: 600;
   color: var(--brand);
   margin-bottom: 16px;
@@ -143,16 +147,25 @@ a {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 24px;
+<<<<<<< HEAD
   padding: 32px;
+=======
+  padding: 28px;
+>>>>>>> main
   box-shadow: var(--shadow);
 }
 
 .hero-card-header {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: center;
   gap: 16px;
   text-align: center;
+=======
+  justify-content: space-between;
+  gap: 16px;
+>>>>>>> main
 }
 
 .pill {
@@ -169,6 +182,7 @@ a {
   display: grid;
   gap: 12px;
   color: var(--muted);
+<<<<<<< HEAD
   padding-left: 0;
   list-style: none;
 }
@@ -178,6 +192,8 @@ a {
   border-radius: 14px;
   border: 1px solid var(--border);
   background: var(--surface-alt);
+=======
+>>>>>>> main
 }
 
 .hero-card-footer {
@@ -253,6 +269,7 @@ a {
   color: var(--muted);
 }
 
+<<<<<<< HEAD
 .card ul {
   margin-top: 16px;
   display: grid;
@@ -265,6 +282,8 @@ a {
   list-style: disc;
 }
 
+=======
+>>>>>>> main
 .card-tag {
   display: inline-flex;
   align-items: center;
@@ -320,6 +339,7 @@ a {
   gap: 16px;
 }
 
+<<<<<<< HEAD
 .packages {
   align-items: stretch;
 }
@@ -346,6 +366,8 @@ a {
   border-radius: 999px;
 }
 
+=======
+>>>>>>> main
 .case-metric {
   font-weight: 600;
   color: var(--brand-dark);
